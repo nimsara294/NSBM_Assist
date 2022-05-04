@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_faculty.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_main.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_lec_hall.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_log_admin.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_main.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-large/activity_admin_faculty.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_faculty.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_main.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_lec_hall.xml" value="0.3085480093676815" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_log_admin.xml" value="0.17637215528781794" />
