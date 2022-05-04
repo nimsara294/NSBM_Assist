@@ -30,8 +30,8 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/guidelineTwo"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTwo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/guidelineOne" />
 
@@ -45,10 +45,10 @@
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@id/guidelineThree"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guidelineTwo" />
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour"
+        app:layout_constraintEnd_toEndOf="@id/guidelineThree"
+        app:layout_constraintStart_toStartOf="@id/guidelineTwo"
+        app:layout_constraintTop_toTopOf="@id/guidelineOne" />
 
     <Button
         android:id="@+id/btnAdminFoe"
@@ -62,8 +62,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/guidelineFour"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/guidelineThree" />
+        app:layout_constraintStart_toStartOf="@id/guidelineThree"
+        app:layout_constraintTop_toTopOf="@id/guidelineOne" />
 
     <Button
         android:id="@+id/btnAdminBkFac"
@@ -91,22 +91,22 @@
         android:id="@+id/guidelineTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent=".43" />
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".34" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineThree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent=".67" />
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".6" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineFour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent=".9" />
+        app:layout_constraintGuide_percent=".8" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

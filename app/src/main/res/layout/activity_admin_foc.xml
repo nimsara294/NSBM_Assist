@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminFocActivity">
+
+    <EditText
+        android:id="@+id/adminFocId"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter ID"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour"
+        app:layout_constraintTop_toTopOf="@id/guidelineThree"/>
+
+    <EditText
+        android:id="@+id/adminFocLecture"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter Lecture"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFive"
+        app:layout_constraintTop_toTopOf="@id/guidelineFour"/>
+
+    <EditText
+        android:id="@+id/adminFocLecturerName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter Lecturer Name"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineSix"
+        app:layout_constraintTop_toTopOf="@id/guidelineFive"/>
+
+    <EditText
+        android:id="@+id/adminFocTime"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter Time"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineSeven"
+        app:layout_constraintTop_toTopOf="@id/guidelineSix"/>
+
+    <EditText
+        android:id="@+id/adminFocDate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter Date"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineEight"
+        app:layout_constraintTop_toTopOf="@id/guidelineSeven"/>
+
+    <EditText
+        android:id="@+id/adminFocBatchNum"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter Batch Number"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineNine"
+        app:layout_constraintTop_toTopOf="@id/guidelineEight"/>
+
+    <EditText
+        android:id="@+id/adminFocHallNum"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="Enter Hall Number"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintBottom_toTopOf="@id/guidelineTen"
+        app:layout_constraintTop_toTopOf="@id/guidelineNine"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineEleven"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTwo"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintTop_toTopOf="@id/guidelineTen">
+
+        <ImageButton
+            android:id="@+id/imBtnAdminFocBk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/bk"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".8" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEleven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

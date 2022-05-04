@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NSBMAssist">
         <activity
+            android:name=".AdminFocActivity"
+            android:exported="false" />
+        <activity
             android:name=".AdminFacultyActivity"
             android:exported="false" />
         <activity
