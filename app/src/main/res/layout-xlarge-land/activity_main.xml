@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/im"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineThree"
+        app:layout_constraintEnd_toEndOf="@id/guidelineOne"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imBtnLecHallAlloc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:alpha="0.5"
+            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lecHallAlloc"
+            android:textStyle="bold|italic"
+            android:textSize="35sp"
+            android:layout_gravity="center"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour"
+        app:layout_constraintEnd_toEndOf="@id/guidelineOne"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidelineThree">
+
+        <ImageButton
+            android:id="@+id/imBtnRecTt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:alpha="0.5"
+            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recTt"
+            android:textStyle="bold|italic"
+            android:textSize="35sp"
+            android:layout_gravity="center"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineThree"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTwo"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imBtnEveCal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:alpha="0.5"
+            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eveCal"
+            android:textStyle="bold|italic"
+            android:textSize="35sp"
+            android:layout_gravity="center"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTwo"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintTop_toTopOf="@id/guidelineThree">
+
+        <ImageButton
+            android:id="@+id/imBtnStudCent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:alpha="0.5"
+            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stuCent"
+            android:textStyle="bold|italic"
+            android:textSize="35sp"
+            android:layout_gravity="center"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineThree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineTwo"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imBtnTrans"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:alpha="0.5"
+            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trans"
+            android:textStyle="bold|italic"
+            android:textSize="35sp"
+            android:layout_gravity="center"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/guidelineTwo"
+        app:layout_constraintTop_toTopOf="@id/guidelineThree">
+
+        <ImageButton
+            android:id="@+id/imBtnCafe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:alpha="0.5"
+            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cafe"
+            android:textStyle="bold|italic"
+            android:textSize="35sp"
+            android:layout_gravity="center"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidelineFour">
+
+        <ImageButton
+            android:id="@+id/imBtnLogAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:alpha="0.9"
+            android:foreground="@color/mainGreen"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logBtn"
+            android:textStyle="bold|italic"
+            android:textSize="35sp"
+            android:layout_gravity="center"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

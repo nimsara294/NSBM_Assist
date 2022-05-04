@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NSBM Assist</string>
+    <string name="wel_admin">Welcome To The Admin Console!</string>
+    <string name="lecHallAlloc">Lecture Hall Allocation</string>
+    <string name="recTt">Recreation Center</string>
+    <string name="eveCal">Event Calender</string>
+    <string name="stuCent">Student Center</string>
+    <string name="trans">Transportation</string>
+    <string name="cafe">Cafeteria</string>
+    <string name="foc">Faculty of Computing</string>
+    <string name="fob">Faculty of Business</string>
+    <string name="foe">Faculty of Engineering</string>
+    <string name="logBtn">Login As Administrator</string>
+    <string name="bk">Back</string>
+    <string name="usr">Enter Email</string>
+    <string name="pw">Enter Password</string>
+    <string name="lg">Login</string>
+    <string name="lgot">Logout</string>
+    <string name="Rst">Reset</string>
+    <string name="admnFac">Select the faculty from the below</string>
+</resources>

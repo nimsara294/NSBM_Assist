@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogAdminActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/logBtn"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@id/guidelineFive"
+        app:layout_constraintEnd_toStartOf="@id/guidelineEight"
+        app:layout_constraintBottom_toTopOf="@id/guidelineOne"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"></TextView>
+
+    <EditText
+        android:id="@+id/logAdminMail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/guidelineFive"
+        app:layout_constraintEnd_toStartOf="@id/guidelineEight"
+        app:layout_constraintBottom_toTopOf="@id/guidelineTwo"
+        app:layout_constraintTop_toTopOf="@id/guidelineOne"
+        android:hint="@string/usr"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"></EditText>
+
+
+    <EditText
+        android:id="@+id/logAdminPw"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/guidelineFive"
+        app:layout_constraintEnd_toStartOf="@id/guidelineEight"
+        app:layout_constraintBottom_toTopOf="@id/guidelineThree"
+        app:layout_constraintTop_toTopOf="@id/guidelineTwo"
+        android:inputType="textPassword"
+        android:hint="@string/pw"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"></EditText>
+
+    <Button
+        android:id="@+id/btnLogAdmin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/lg"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/guidelineFive"
+        app:layout_constraintEnd_toStartOf="@id/guidelineSix"
+        app:layout_constraintBottom_toTopOf="@id/guidelineTen"
+        app:layout_constraintTop_toTopOf="@id/guidelineNine"
+        android:background="@android:color/transparent"></Button>
+
+    <Button
+        android:id="@+id/btnRstAdmin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/Rst"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/guidelineSeven"
+        app:layout_constraintEnd_toStartOf="@id/guidelineEight"
+        app:layout_constraintBottom_toTopOf="@id/guidelineTen"
+        app:layout_constraintTop_toTopOf="@id/guidelineNine"
+        android:background="@android:color/transparent"></Button>
+
+    <Button
+        android:id="@+id/btnBkLogAdmin"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/bk"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/guidelineFive"
+        app:layout_constraintEnd_toStartOf="@id/guidelineEight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guidelineFour"
+        android:background="@android:color/transparent"></Button>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2"  />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineSix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineSeven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineEight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineNine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

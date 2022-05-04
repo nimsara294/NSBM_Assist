@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="guidelineFive" type="id" />
+    <item name="guidelineSix" type="id" />
+    <item name="guidelineSeven" type="id" />
+    <item name="guidelineEight" type="id" />
+    <item name="guidelineNine" type="id" />
+    <item name="guidelineTen" type="id" />
+    <item name="btnLogAdmin" type="id" />
+    <item name="btnRstAdmin" type="id" />
+    <item name="btnBkLogAdmin" type="id" />
+</resources>
