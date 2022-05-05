@@ -18,4 +18,13 @@
     <string name="lgot">Logout</string>
     <string name="Rst">Reset</string>
     <string name="admnFac">Select the faculty from the below</string>
+    <string name="ad">Add Data</string>
+    <string name="updt">Update</string>
+    <string name="entId">Enter ID</string>
+    <string name="entLect">Enter Lecture</string>
+    <string name="entLecturer">Enter Lecturer</string>
+    <string name="entTime">Enter Time</string>
+    <string name="entDate">Enter Date</string>
+    <string name="entBatch">Enter Batch Number</string>
+    <string name="entHall">Enter Hall Number</string>
 </resources>

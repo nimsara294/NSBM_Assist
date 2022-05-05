@@ -10,7 +10,7 @@
         android:id="@+id/adminFocId"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="Enter ID"
+        android:hint="@string/entId"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineFour"
@@ -20,7 +20,7 @@
         android:id="@+id/adminFocLecture"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="Enter Lecture"
+        android:hint="@string/entLect"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineFive"
@@ -30,7 +30,7 @@
         android:id="@+id/adminFocLecturerName"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="Enter Lecturer Name"
+        android:hint="@string/entLecturer"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineSix"
@@ -40,7 +40,7 @@
         android:id="@+id/adminFocTime"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="Enter Time"
+        android:hint="@string/entTime"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineSeven"
@@ -50,7 +50,7 @@
         android:id="@+id/adminFocDate"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="Enter Date"
+        android:hint="@string/entDate"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineEight"
@@ -60,7 +60,7 @@
         android:id="@+id/adminFocBatchNum"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="Enter Batch Number"
+        android:hint="@string/entBatch"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineNine"
@@ -70,7 +70,7 @@
         android:id="@+id/adminFocHallNum"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="Enter Hall Number"
+        android:hint="@string/entHall"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineTen"
@@ -81,7 +81,7 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="@id/guidelineEleven"
         app:layout_constraintEnd_toEndOf="@id/guidelineTwo"
-        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintStart_toStartOf="@id/guidelineThirteen"
         app:layout_constraintTop_toTopOf="@id/guidelineTen">
 
         <ImageButton
@@ -98,6 +98,60 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/bk"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineEleven"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTwelve"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintTop_toTopOf="@id/guidelineTen">
+
+        <ImageButton
+            android:id="@+id/imBtnAdminFocAdd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ad"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"></TextView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineEleven"
+        app:layout_constraintEnd_toEndOf="@id/guidelineThirteen"
+        app:layout_constraintStart_toStartOf="@id/guidelineTwelve"
+        app:layout_constraintTop_toTopOf="@id/guidelineTen">
+
+        <ImageButton
+            android:id="@+id/imBtnAdminFocReset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop"></ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Rst"
             android:textSize="25sp"
             android:textStyle="bold|italic"></TextView>
 
@@ -179,4 +233,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent=".9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTwelve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineThirteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".65" />
 </androidx.constraintlayout.widget.ConstraintLayout>
