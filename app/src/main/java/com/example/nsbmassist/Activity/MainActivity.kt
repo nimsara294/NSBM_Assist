@@ -1,11 +1,10 @@
-package com.example.nsbmassist
+package com.example.nsbmassist.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
-import android.widget.ImageView
+import com.example.nsbmassist.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,13 +20,13 @@ class MainActivity : AppCompatActivity() {
         val btnLogAdmin:ImageButton=findViewById(R.id.imBtnLogAdmin)
 
         imBtnLecHallAlloc.setOnClickListener(){
-            val intent=Intent(this,LecHallActivity::class.java)
+            val intent=Intent(this, LecHallActivity::class.java)
             startActivity(intent)
             finish()
         }
 
        btnLogAdmin.setOnClickListener(){
-            val intent=Intent(this,LogAdminActivity::class.java)
+            val intent=Intent(this, LogAdminActivity::class.java)
             startActivity(intent)
             finish()
         }

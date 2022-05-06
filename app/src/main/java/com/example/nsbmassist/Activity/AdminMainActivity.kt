@@ -1,11 +1,11 @@
-package com.example.nsbmassist
+package com.example.nsbmassist.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
-import com.google.firebase.auth.FirebaseAuth
+import com.example.nsbmassist.R
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
@@ -18,14 +18,14 @@ class AdminMainActivity : AppCompatActivity() {
         val imBtnLogOutAdmin:ImageButton=findViewById(R.id.imBtnLogOutAdmin)
 
         btnAdminLecHallAlloc.setOnClickListener(){
-            val intent=Intent(this,AdminFacultyActivity::class.java)
+            val intent=Intent(this, AdminFacultyActivity::class.java)
             startActivity(intent)
             finish()
         }
 
         imBtnLogOutAdmin.setOnClickListener(){
             Firebase.auth.signOut()
-            val intent=Intent(this,LogAdminActivity::class.java)
+            val intent=Intent(this, LogAdminActivity::class.java)
             startActivity(intent)
             finish()
         }

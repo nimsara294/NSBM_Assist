@@ -1,9 +1,10 @@
-package com.example.nsbmassist
+package com.example.nsbmassist.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.nsbmassist.R
 
 class AdminFacultyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,13 +15,13 @@ class AdminFacultyActivity : AppCompatActivity() {
         val btnAdminBkFac:Button=findViewById(R.id.btnAdminBkFac)
 
         btnAdminBkFac.setOnClickListener(){
-            val intent=Intent(this,AdminMainActivity::class.java)
+            val intent=Intent(this, AdminMainActivity::class.java)
             startActivity(intent)
             finish()
         }
 
         btnAdminFoc.setOnClickListener(){
-            val intent=Intent(this,AdminFocActivity::class.java)
+            val intent=Intent(this, AdminFocAddDataActivity ::class.java)
             startActivity(intent)
             finish()
         }

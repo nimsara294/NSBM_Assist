@@ -1,4 +1,4 @@
-package com.example.nsbmassist
+package com.example.nsbmassist.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.example.nsbmassist.R
 import com.google.firebase.auth.FirebaseAuth
 
 class LogAdminActivity : AppCompatActivity() {
@@ -24,7 +25,7 @@ class LogAdminActivity : AppCompatActivity() {
             auth.signInWithEmailAndPassword(email,password).addOnCompleteListener{task->
                 if(task.isSuccessful){
                     Toast.makeText(applicationContext, "Login Successful", Toast.LENGTH_SHORT).show()
-                    val intent=Intent(this,AdminMainActivity::class.java)
+                    val intent=Intent(this, AdminMainActivity::class.java)
                     startActivity(intent)
                     finish()
                 }else
@@ -33,7 +34,7 @@ class LogAdminActivity : AppCompatActivity() {
 
         }
         btnBkLogAdmin.setOnClickListener(){
-            val intent=Intent(this,MainActivity::class.java)
+            val intent=Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }

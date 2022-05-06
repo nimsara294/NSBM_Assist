@@ -10,22 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NSBMAssist">
         <activity
-            android:name=".AdminFocActivity"
+            android:name=".Activity.FocDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".AdminFacultyActivity"
+            android:name=".Activity.FocViewActivity"
             android:exported="false" />
         <activity
-            android:name=".AdminMainActivity"
+            android:name=".Activity.AdminFocAddDataActivity"
             android:exported="false" />
         <activity
-            android:name=".LogAdminActivity"
+            android:name=".Activity.AdminFacultyActivity"
             android:exported="false" />
         <activity
-            android:name=".LecHallActivity"
+            android:name=".Activity.AdminMainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.LogAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.LecHallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

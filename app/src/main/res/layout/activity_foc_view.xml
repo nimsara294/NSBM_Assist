@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.FocViewActivity"
+    tools:ignore="ExtraText">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFoc"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:listitem="@layout/list_view"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintTop_toTopOf="@id/guidelineThree"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour"/>
+
+    <TextView
+        android:id="@+id/tvLoadingData"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/load_data"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
+        app:layout_constraintTop_toTopOf="@id/guidelineThree"
+        app:layout_constraintBottom_toTopOf="@id/guidelineFour" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineFive"
+        app:layout_constraintEnd_toEndOf="@id/guidelineTwo"
+        app:layout_constraintStart_toStartOf="@id/guidelineOne"
+        app:layout_constraintTop_toTopOf="@id/guidelineFour">
+
+        <ImageButton
+            android:id="@+id/imBtnBkFoc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/bk"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

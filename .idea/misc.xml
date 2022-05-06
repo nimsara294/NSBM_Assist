@@ -20,12 +20,19 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_main.xml" value="0.1254125412541254" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_faculty.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_foc.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_foc2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_foc_add_data.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_main.xml" value="0.21933085501858737" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_foc_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_foc_view.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_lec_hall.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_log_admin.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_login_admin.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/foc_list_view.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/fragment_admin_faculty.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/update_dialog.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/xml/foc_list_item.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

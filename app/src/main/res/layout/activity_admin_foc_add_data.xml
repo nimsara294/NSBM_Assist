@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminFocActivity">
+    tools:context=".Activity.AdminFocAddDataActivity">
 
     <EditText
-        android:id="@+id/adminFocId"
+        android:id="@+id/adminFocCode"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:hint="@string/entId"
+        android:hint="@string/entCode"
         app:layout_constraintStart_toStartOf="@id/guidelineOne"
         app:layout_constraintEnd_toStartOf="@id/guidelineTwo"
         app:layout_constraintBottom_toTopOf="@id/guidelineFour"
@@ -81,7 +81,7 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="@id/guidelineEleven"
         app:layout_constraintEnd_toEndOf="@id/guidelineTwo"
-        app:layout_constraintStart_toStartOf="@id/guidelineThirteen"
+        app:layout_constraintStart_toStartOf="@id/guidelineFifteen"
         app:layout_constraintTop_toTopOf="@id/guidelineTen">
 
         <ImageButton
@@ -91,15 +91,15 @@
             android:background="@android:color/transparent"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
-            android:scaleType="centerCrop"></ImageButton>
+            android:scaleType="centerCrop" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/bk"
-            android:textSize="25sp"
-            android:textStyle="bold|italic"></TextView>
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
     </com.google.android.material.card.MaterialCardView>
 
@@ -118,15 +118,42 @@
             android:background="@android:color/transparent"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
-            android:scaleType="centerCrop"></ImageButton>
+            android:scaleType="centerCrop" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/ad"
-            android:textSize="25sp"
-            android:textStyle="bold|italic"></TextView>
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineEleven"
+        app:layout_constraintEnd_toEndOf="@id/guidelineFifteen"
+        app:layout_constraintStart_toStartOf="@id/guidelineFourteen"
+        app:layout_constraintTop_toTopOf="@id/guidelineTen">
+
+        <ImageButton
+            android:id="@+id/imBtnAdminFocReset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Rst"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
     </com.google.android.material.card.MaterialCardView>
 
@@ -139,21 +166,48 @@
         app:layout_constraintTop_toTopOf="@id/guidelineTen">
 
         <ImageButton
-            android:id="@+id/imBtnAdminFocReset"
+            android:id="@+id/imBtnAdminFocUpdate"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
-            android:scaleType="centerCrop"></ImageButton>
+            android:scaleType="centerCrop" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/Rst"
-            android:textSize="25sp"
-            android:textStyle="bold|italic"></TextView>
+            android:text="@string/update"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineEleven"
+        app:layout_constraintEnd_toEndOf="@id/guidelineFourteen"
+        app:layout_constraintStart_toStartOf="@id/guidelineThirteen"
+        app:layout_constraintTop_toTopOf="@id/guidelineTen">
+
+        <ImageButton
+            android:id="@+id/imBtnAdminFocDelete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:foregroundTint="@color/cardview_dark_background"
+            android:foregroundTintMode="screen"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/delete"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
     </com.google.android.material.card.MaterialCardView>
 
@@ -239,12 +293,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent=".35" />
+        app:layout_constraintGuide_percent=".23" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineThirteen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent=".65" />
+        app:layout_constraintGuide_percent=".41" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFourteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".59" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineFifteen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".77" />
 </androidx.constraintlayout.widget.ConstraintLayout>

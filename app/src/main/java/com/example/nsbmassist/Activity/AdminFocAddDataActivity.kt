@@ -1,21 +1,23 @@
-package com.example.nsbmassist
+package com.example.nsbmassist.Activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import com.example.nsbmassist.Model.FocModel
+import com.example.nsbmassist.R
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
-class AdminFocActivity : AppCompatActivity() {
+class AdminFocAddDataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_admin_foc)
+        setContentView(R.layout.activity_admin_foc_add_data)
 
-        val id:EditText=findViewById(R.id.adminFocId)
+        var code:EditText=findViewById(R.id.adminFocCode)
         val lect:EditText=findViewById(R.id.adminFocLecture)
         val lecturer:EditText=findViewById(R.id.adminFocLecturerName)
         val time:EditText=findViewById(R.id.adminFocTime)
@@ -24,6 +26,7 @@ class AdminFocActivity : AppCompatActivity() {
         val hall:EditText=findViewById(R.id.adminFocHallNum)
 
         val imBtnAdminFocAdd:ImageButton=findViewById(R.id.imBtnAdminFocAdd)
+        val imBtnAdminFocUpdate:ImageButton=findViewById(R.id.imBtnAdminFocUpdate)
         val imBtnAdminFocRst:ImageButton=findViewById(R.id.imBtnAdminFocReset)
         val imBtnAdminFocBk: ImageButton =findViewById(R.id.imBtnAdminFocBk)
 
@@ -31,7 +34,7 @@ class AdminFocActivity : AppCompatActivity() {
 
         fun saveFocLectureData(){
 
-            var lectId=id.text.toString()
+            var lectCode=code.text.toString()
             val lectName=lect.text.toString()
             val lecturerName=lecturer.text.toString()
             val lecttime=time.text.toString()
@@ -39,8 +42,8 @@ class AdminFocActivity : AppCompatActivity() {
             val batchnum=batch.text.toString()
             val hallnum=hall.text.toString()
 
-            if (lectId.isEmpty()){
-                id.error="Please Enter ID"
+            if (lectCode.isEmpty()){
+                code.error="Please Enter ID"
             }
             if (lectName.isEmpty()){
                 lect.error="Please Enter Lecture"
@@ -61,15 +64,15 @@ class AdminFocActivity : AppCompatActivity() {
                 hall.error="Please Enter Hall Number"
             }
 
-            lectId=dbRef.push().key!!
+            val lectId=dbRef.push().key!!
 
-            val lecture=FocModel(lectId,lectName,lecturerName,lecttime,lectdate,batchnum,hallnum)
+            val lecture= FocModel(lectId,lectCode,lectName,lecturerName,lecttime,lectdate,batchnum,hallnum)
 
             dbRef.child(lectId).setValue(lecture)
                 .addOnCompleteListener{
                     Toast.makeText(this,"Data inserted Successfully", Toast.LENGTH_LONG).show()
 
-                    id.setText("")
+                    code.setText("")
                     lect.setText("")
                     lecturer.setText("")
                     time.setText("")
@@ -83,12 +86,71 @@ class AdminFocActivity : AppCompatActivity() {
 
         }
 
+        fun updateFocLecture(
+          code:String,
+          lect:String,
+          lectName:String,
+          time:String,
+          date:String,
+          batch:String,
+          hall:String
+        ){
+            dbRef=FirebaseDatabase.getInstance().getReference("FocLecture").child(code)
+            val focLect=FocModel(code,lect,lectName,time,date,batch,hall)
+            dbRef.setValue(focLect)
+        }
+
+        fun openUpdateDialog(code: String){
+            val updateDialog = AlertDialog.Builder(this)
+            val inflater=layoutInflater
+            val updateDialogView=inflater.inflate(R.layout.update_dialog,null)
+
+            updateDialog.setView(updateDialogView)
+
+            val etCode:EditText=updateDialogView.findViewById(R.id.etCode)
+            val etLect:EditText=updateDialogView.findViewById(R.id.etLect)
+            val etLectName:EditText=updateDialogView.findViewById(R.id.etLectName)
+            val etTime:EditText=updateDialogView.findViewById(R.id.etTime)
+            val etDate:EditText=updateDialogView.findViewById(R.id.etDate)
+            val etBatch:EditText=updateDialogView.findViewById(R.id.etBatch)
+            val etHall:EditText=updateDialogView.findViewById(R.id.etHall)
+            val btnUpdateData:EditText=updateDialogView.findViewById(R.id.btnUpdateData)
+
+            etCode.setText(code)
+
+            val alertDialog=updateDialog.create()
+            alertDialog.show()
+
+            btnUpdateData.setOnClickListener{
+                updateFocLecture(
+                    code,
+                    etLect.text.toString(),
+                    etLectName.text.toString(),
+                    etTime.text.toString(),
+                    etDate.text.toString(),
+                    etBatch.text.toString(),
+                    etHall.text.toString()
+                )
+            }
+            Toast.makeText(applicationContext,"Lecture Schedule Updated", Toast.LENGTH_LONG).show()
+
+            alertDialog.dismiss()
+        }
+
+
+
+        imBtnAdminFocUpdate.setOnClickListener{
+            openUpdateDialog(
+                code.toString()
+            )
+        }
+
         imBtnAdminFocAdd.setOnClickListener(){
             saveFocLectureData()
         }
 
         imBtnAdminFocRst.setOnClickListener(){
-            id.setText("")
+            code.setText("")
             lect.setText("")
             lecturer.setText("")
             time.setText("")
@@ -97,7 +159,7 @@ class AdminFocActivity : AppCompatActivity() {
             hall.setText("")
         }
         imBtnAdminFocBk.setOnClickListener(){
-            val intent= Intent(this,AdminFacultyActivity::class.java)
+            val intent= Intent(this, AdminFacultyActivity::class.java)
             startActivity(intent)
             finish()
         }
