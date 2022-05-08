@@ -10,13 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NSBMAssist">
         <activity
-            android:name=".Activity.FocDetailsActivity"
+            android:name=".Activity.Fob.FobDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.FocViewActivity"
+            android:name=".Activity.Fob.AdminFobEditActivity"
             android:exported="false" />
         <activity
-            android:name=".Activity.AdminFocAddDataActivity"
+            android:name=".Activity.Fob.FobViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Foc.FocDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Foc.FocViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Foc.AdminFocEditActivity"
             android:exported="false" />
         <activity
             android:name=".Activity.AdminFacultyActivity"

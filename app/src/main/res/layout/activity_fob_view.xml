@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.Foc.FocViewActivity"
     android:background="@color/light_green"
-    tools:ignore="ExtraText">
+    tools:context=".Activity.Fob.FobViewActivity">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvFoc"
+        android:id="@+id/rvFob"
         android:layout_width="0dp"
         android:layout_height="0dp"
         tools:listitem="@layout/list_view"
@@ -32,7 +31,7 @@
         app:layout_constraintBottom_toTopOf="@id/guidelineFour" />
 
     <Button
-        android:id="@+id/btnBkFoc"
+        android:id="@+id/btnBkFob"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@android:color/transparent"

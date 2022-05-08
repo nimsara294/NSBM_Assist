@@ -1,13 +1,15 @@
-package com.example.nsbmassist.Activity
+package com.example.nsbmassist.Activity.Foc
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.nsbmassist.Activity.LecHallActivity
 import com.example.nsbmassist.Adaptor.FocAdapter
 import com.example.nsbmassist.Model.FocModel
 import com.example.nsbmassist.R
@@ -33,10 +35,10 @@ class FocViewActivity : AppCompatActivity() {
 
         getFocLectData()
 
-        val imBtnFocBK:ImageButton=findViewById(R.id.imBtnBkFoc)
+        val btnFocBK:Button=findViewById(R.id.btnBkFoc)
 
-        imBtnFocBK.setOnClickListener(){
-            val intent=Intent(this,LecHallActivity::class.java)
+        btnFocBK.setOnClickListener(){
+            val intent=Intent(this, LecHallActivity::class.java)
             startActivity(intent)
             finish()
         }

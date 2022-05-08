@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.example.nsbmassist.Activity.Fob.FobViewActivity
+import com.example.nsbmassist.Activity.Foc.FocViewActivity
 import com.example.nsbmassist.R
 
 class LecHallActivity : AppCompatActivity() {
@@ -12,10 +14,18 @@ class LecHallActivity : AppCompatActivity() {
         setContentView(R.layout.activity_lec_hall)
 
         val imBtnFoc:ImageButton=findViewById(R.id.imBtnFoc)
+        val imBtnFob:ImageButton=findViewById(R.id.imBtnFob)
         val imBtnBkFac:ImageButton=findViewById(R.id.imBtnBkFac)
+
 
         imBtnFoc.setOnClickListener(){
             val intent=Intent(this, FocViewActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        imBtnFob.setOnClickListener(){
+            val intent=Intent(this, FobViewActivity::class.java)
             startActivity(intent)
             finish()
         }
