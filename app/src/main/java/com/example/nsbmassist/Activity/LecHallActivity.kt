@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.ImageButton
 import com.example.nsbmassist.Activity.Fob.FobViewActivity
 import com.example.nsbmassist.Activity.Foc.FocViewActivity
+import com.example.nsbmassist.Activity.Foe.FoeViewActivity
 import com.example.nsbmassist.R
 
 class LecHallActivity : AppCompatActivity() {
@@ -15,6 +16,7 @@ class LecHallActivity : AppCompatActivity() {
 
         val imBtnFoc:ImageButton=findViewById(R.id.imBtnFoc)
         val imBtnFob:ImageButton=findViewById(R.id.imBtnFob)
+        val imBtnFoe:ImageButton=findViewById(R.id.imBtnFoe)
         val imBtnBkFac:ImageButton=findViewById(R.id.imBtnBkFac)
 
 
@@ -26,6 +28,12 @@ class LecHallActivity : AppCompatActivity() {
 
         imBtnFob.setOnClickListener(){
             val intent=Intent(this, FobViewActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        imBtnFoe.setOnClickListener(){
+            val intent=Intent(this, FoeViewActivity::class.java)
             startActivity(intent)
             finish()
         }

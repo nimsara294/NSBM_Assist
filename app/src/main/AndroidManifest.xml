@@ -10,6 +10,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NSBMAssist">
         <activity
+            android:name=".Activity.Transport.TransDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Transport.TransViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Transport.AdminTransEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EveCal.EveCalViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EveCal.EveCalDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.EveCal.AdminEveCalEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SCEvents.ScViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SCEvents.ScDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.SCEvents.AdminSCEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RCTimeTable.RcViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RCTimeTable.RcDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.RCTimeTable.AdminRCEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Foe.FoeViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Foe.FoeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Foe.AdminFoeEditActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.Fob.FobDetailsActivity"
             android:exported="false" />
         <activity

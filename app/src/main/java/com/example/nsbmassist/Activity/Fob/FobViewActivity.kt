@@ -17,7 +17,7 @@ import com.google.firebase.database.*
 
 class FobViewActivity : AppCompatActivity() {
 
-    private lateinit var focRecyclerView: RecyclerView
+    private lateinit var fobRecyclerView: RecyclerView
     private lateinit var tvLoadingData: TextView
     private lateinit var foblist: ArrayList<FobModel>
     private lateinit var dbRef: DatabaseReference
@@ -26,9 +26,9 @@ class FobViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fob_view)
 
-        focRecyclerView = findViewById(R.id.rvFob)
-        focRecyclerView.layoutManager = LinearLayoutManager(this)
-        focRecyclerView.setHasFixedSize(true)
+        fobRecyclerView = findViewById(R.id.rvFob)
+        fobRecyclerView.layoutManager = LinearLayoutManager(this)
+        fobRecyclerView.setHasFixedSize(true)
         tvLoadingData = findViewById(R.id.tvLoadingData)
 
         foblist = arrayListOf()
@@ -45,7 +45,7 @@ class FobViewActivity : AppCompatActivity() {
     }
 
     private fun getFobLectData() {
-        focRecyclerView.visibility = View.GONE
+        fobRecyclerView.visibility = View.GONE
         tvLoadingData.visibility = View.VISIBLE
 
         dbRef = FirebaseDatabase.getInstance().getReference("FobLecture")
@@ -59,7 +59,7 @@ class FobViewActivity : AppCompatActivity() {
                         foblist.add(fobLectData!!)
                     }
                     val lectAdaptor = FobAdapter(foblist)
-                    focRecyclerView.adapter = lectAdaptor
+                    fobRecyclerView.adapter = lectAdaptor
 
                     lectAdaptor.setOnItemClickListener(object : FobAdapter.onItemClickListener {
                         override fun onItemClick(position: Int) {
@@ -77,7 +77,7 @@ class FobViewActivity : AppCompatActivity() {
 
                     })
 
-                    focRecyclerView.visibility = View.VISIBLE
+                    fobRecyclerView.visibility = View.VISIBLE
                     tvLoadingData.visibility = View.GONE
                 }
             }

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.nsbmassist.Activity.Fob.AdminFobEditActivity
 import com.example.nsbmassist.Activity.Foc.AdminFocEditActivity
+import com.example.nsbmassist.Activity.Foe.AdminFoeEditActivity
 import com.example.nsbmassist.R
 
 class AdminFacultyActivity : AppCompatActivity() {
@@ -15,6 +16,7 @@ class AdminFacultyActivity : AppCompatActivity() {
 
         val btnAdminFoc:Button=findViewById(R.id.btnAdminFoc)
         val btnAdminFob:Button=findViewById(R.id.btnAdminFob)
+        val btnAdminFoe:Button=findViewById(R.id.btnAdminFoe)
         val btnAdminBkFac:Button=findViewById(R.id.btnAdminBkFac)
 
         btnAdminBkFac.setOnClickListener(){
@@ -25,6 +27,12 @@ class AdminFacultyActivity : AppCompatActivity() {
 
         btnAdminFoc.setOnClickListener(){
             val intent=Intent(this, AdminFocEditActivity ::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        btnAdminFoe.setOnClickListener(){
+            val intent=Intent(this, AdminFoeEditActivity ::class.java)
             startActivity(intent)
             finish()
         }

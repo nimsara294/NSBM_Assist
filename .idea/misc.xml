@@ -3,54 +3,114 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_eve_cal_edit.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_faculty.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_fob_edit.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_foc_add_data.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_foe_edit.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_main.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_rcedit.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_scedit.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_admin_trans_edit.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_eve_cal_details.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_eve_cal_view.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_fob_details.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_fob_view.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_foc_details.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_foc_view.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_foe_details.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_foe_view.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_lec_hall.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_log_admin.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_main.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_rc_details.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_rc_view.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_sc_details.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_sc_view.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_trans_details.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-land/activity_trans_view.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-large/activity_admin_faculty.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_eve_cal_edit.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_faculty.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_fob_edit.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_foc_add_data.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_foe_edit.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_main.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_rcedit.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_scedit.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_admin_trans_edit.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_eve_cal_details.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_eve_cal_view.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_fob_details.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_fob_view.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_foc_details.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_foc_view.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_foe_details.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_foe_view.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_lec_hall.xml" value="0.3085480093676815" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_log_admin.xml" value="0.17637215528781794" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_main.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_rc_details.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_rc_view.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_sc_details.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_sc_view.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_trans_details.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge-land/activity_trans_view.xml" value="0.17637215528781794" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_eve_cal_edit.xml" value="0.18818306010928962" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_fob_edit.xml" value="0.205859375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_foc_add_data.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_foe_edit.xml" value="0.205859375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_main.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_rcedit.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_scedit.xml" value="0.18818306010928962" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_admin_trans_edit.xml" value="0.18818306010928962" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_eve_cal_details.xml" value="0.18818306010928962" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_eve_cal_view.xml" value="0.18818306010928962" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_fob_details.xml" value="0.205859375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_fob_view.xml" value="0.205859375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_foc_details.xml" value="0.205859375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_foc_view.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_foe_details.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_foe_view.xml" value="0.205859375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_lec_hall.xml" value="0.1766025641025641" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_log_admin.xml" value="0.18818306010928962" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_main.xml" value="0.1254125412541254" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_rc_details.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_rc_view.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_sc_details.xml" value="0.18818306010928962" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_sc_view.xml" value="0.12056010928961748" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_trans_details.xml" value="0.18818306010928962" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/activity_trans_view.xml" value="0.18818306010928962" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout-xlarge/list_view.xml" value="0.205859375" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_eve_cal_edit.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_faculty.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_fob_edit.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_foc.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_foc2.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_foc_add_data.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_foe_edit.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_main.xml" value="0.21933085501858737" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_rcedit.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_scedit.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_admin_trans_edit.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_eve_cal_details.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_eve_cal_view.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_fob_details.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_fob_view.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_foc_details.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_foc_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_foe_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_foe_view.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_lec_hall.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_log_admin.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_login_admin.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_rc_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_rc_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_sc_details.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_sc_view.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_trans_details.xml" value="0.24954710144927536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/activity_trans_view.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/foc_list_view.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/fragment_admin_faculty.xml" value="0.24954710144927536" />
         <entry key="..\:/Users/User/AndroidStudioProjects/NSBMAssist/app/src/main/res/layout/list_view.xml" value="0.536" />

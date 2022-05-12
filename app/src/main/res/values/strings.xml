@@ -36,4 +36,21 @@
     <string name="batch">Batch</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="recreation_center">Recreation Center</string>
+    <string name="entEve">Enter Event</string>
+    <string name="entGroup">Enter Group</string>
+    <string name="entVenue">Enter Venue</string>
+    <string name="eveName">Event Name</string>
+    <string name="group">Group</string>
+    <string name="venue">Venue</string>
+    <string name="etOrgBy">Organized By</string>
+    <string name="organized_by">Organized By</string>
+    <string name="entDepTime">Enter Departure Time</string>
+    <string name="entArrTime">Enter Arrival Time</string>
+    <string name="entDest">Enter Destination</string>
+    <string name="entStart">Enter Starting Location</string>
+    <string name="startLoc">Starting Location</string>
+    <string name="dest">Destination</string>
+    <string name="arrTime">Arrival Time</string>
+    <string name="depTime">Departure Time</string>
 </resources>
