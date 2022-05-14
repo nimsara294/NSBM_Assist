@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val imBtnCafe:ImageButton=findViewById(R.id.imBtnCafe)
         val btnLogAdmin:ImageButton=findViewById(R.id.imBtnLogAdmin)
 
+
         imBtnLecHallAlloc.setOnClickListener(){
             val intent=Intent(this, LecHallActivity::class.java)
             startActivity(intent)
