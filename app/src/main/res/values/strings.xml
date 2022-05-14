@@ -53,4 +53,11 @@
     <string name="dest">Destination</string>
     <string name="arrTime">Arrival Time</string>
     <string name="depTime">Departure Time</string>
+    <string name="entName">Enter Name</string>
+    <string name="entOpen">Open From</string>
+    <string name="entClose">Closes At</string>
+    <string name="name">Name</string>
+    <string name="opens_at">Opens At</string>
+    <string name="closes_at">Closes At</string>
+    <string name="status">Status</string>
 </resources>

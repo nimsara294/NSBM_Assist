@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NSBMAssist">
         <activity
+            android:name=".Activity.Cafe.CafeViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Cafe.CafeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Cafe.AdminCafeEditActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.Transport.TransDetailsActivity"
             android:exported="false" />
         <activity

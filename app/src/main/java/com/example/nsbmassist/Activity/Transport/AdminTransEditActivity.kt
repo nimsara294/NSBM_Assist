@@ -44,16 +44,16 @@ class AdminTransEditActivity : AppCompatActivity() {
                 code.error="Please Enter Code"
             }
             if (startLoc.isEmpty()){
-                start.error="Please Enter Event Name"
+                start.error="Please Enter Starting Location"
             }
             if (destLoc.isEmpty()){
-                dest.error="Please Enter Event Time"
+                dest.error="Please Enter Destination"
             }
             if (transArrTime.isEmpty()){
-                arrTime.error="Please Enter Event Date"
+                arrTime.error="Please Enter Arrival Time"
             }
             if (transDepTime.isEmpty()){
-                depTime.error="Please Enter Organization parties"
+                depTime.error="Please Enter Departure Time"
             }
 
             val transTrip= TransModel(startLoc,destLoc,transArrTime,transDepTime)

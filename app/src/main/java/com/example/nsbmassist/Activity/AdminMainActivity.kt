@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import com.example.nsbmassist.Activity.Cafe.AdminCafeEditActivity
 import com.example.nsbmassist.Activity.EveCal.AdminEveCalEditActivity
 import com.example.nsbmassist.Activity.RCTimeTable.AdminRCEditActivity
 import com.example.nsbmassist.Activity.SCEvents.AdminSCEditActivity
@@ -23,6 +24,7 @@ class AdminMainActivity : AppCompatActivity() {
         val btnAdminSc:Button=findViewById(R.id.btnAdminStudCent)
         val btnAdminEc:Button=findViewById(R.id.btnAdminEveCal)
         val btnAdminTrans: Button=findViewById(R.id.btnAdminTrans)
+        val btnAdminCafe:Button=findViewById(R.id.btnAdminCafe)
         val imBtnLogOutAdmin:ImageButton=findViewById(R.id.imBtnLogOutAdmin)
 
         btnAdminLecHallAlloc.setOnClickListener(){
@@ -51,6 +53,12 @@ class AdminMainActivity : AppCompatActivity() {
 
         btnAdminTrans.setOnClickListener(){
             val intent=Intent(this, AdminTransEditActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        btnAdminCafe.setOnClickListener(){
+            val intent=Intent(this, AdminCafeEditActivity::class.java)
             startActivity(intent)
             finish()
         }

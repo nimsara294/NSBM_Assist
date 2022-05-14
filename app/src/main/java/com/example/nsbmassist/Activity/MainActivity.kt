@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
+import com.example.nsbmassist.Activity.Cafe.CafeViewActivity
 import com.example.nsbmassist.Activity.EveCal.EveCalViewActivity
 import com.example.nsbmassist.Activity.RCTimeTable.RcViewActivity
 import com.example.nsbmassist.Activity.SCEvents.ScViewActivity
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val imBtnEveCal:ImageButton=findViewById(R.id.imBtnEveCal)
         val imBtnStdCent:ImageButton=findViewById(R.id.imBtnStudCent)
         val imBtnTrans:ImageButton=findViewById(R.id.imBtnTrans)
-        /*val imBtnCafe:ImageButton=findViewById(R.id.imBtnCafe)*/
+        val imBtnCafe:ImageButton=findViewById(R.id.imBtnCafe)
         val btnLogAdmin:ImageButton=findViewById(R.id.imBtnLogAdmin)
 
         imBtnLecHallAlloc.setOnClickListener(){
@@ -49,6 +50,12 @@ class MainActivity : AppCompatActivity() {
 
         imBtnTrans.setOnClickListener(){
             val intent=Intent(this, TransViewActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        imBtnCafe.setOnClickListener(){
+            val intent=Intent(this, CafeViewActivity::class.java)
             startActivity(intent)
             finish()
         }
