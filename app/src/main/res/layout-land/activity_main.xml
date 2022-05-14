@@ -51,7 +51,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:alpha="0.5"
-            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foreground="@drawable/_017_09_01"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
             android:scaleType="centerCrop"></ImageButton>
@@ -81,7 +81,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:alpha="0.5"
-            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foreground="@drawable/eve"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
             android:scaleType="centerCrop"></ImageButton>
@@ -110,7 +110,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:alpha="0.5"
-            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foreground="@drawable/std"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
             android:scaleType="centerCrop"></ImageButton>
@@ -139,7 +139,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:alpha="0.5"
-            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foreground="@drawable/transport"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
             android:scaleType="centerCrop"></ImageButton>
@@ -168,7 +168,7 @@
             android:layout_height="match_parent"
             android:background="@android:color/transparent"
             android:alpha="0.5"
-            android:foreground="@drawable/nsbm_facilities_lecturehall_1"
+            android:foreground="@drawable/_4794083_2565080010226291_1472039241146957824_n"
             android:foregroundTint="@color/cardview_dark_background"
             android:foregroundTintMode="screen"
             android:scaleType="centerCrop"></ImageButton>
